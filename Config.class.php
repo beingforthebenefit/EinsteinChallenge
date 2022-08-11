@@ -43,7 +43,7 @@ class Config {
                     trim($parts[1])
                 );
 
-                self::$config[] = $parts;
+                self::$config[$parts[0]] = $parts[1];
             }
         }
 
