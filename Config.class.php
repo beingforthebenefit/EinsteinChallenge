@@ -17,7 +17,7 @@ class Config {
         'off' => false
     ];
 
-    // \Config::FILENAME :: [string -> int|float|str|bool]
+    // \Config::$config :: [string -> int|float|str|bool]
     public static $config = [];
 
     // \Config::load :: void -> bool
